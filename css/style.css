@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+#relogio{
+    display: flex;
+    gap: 30px;
+}
+#relogio div{
+    padding: 20px;
+    background: white;
+    border-radius: 150px;
+}
+#relogio div span{
+    font-size: 70px;
+}
